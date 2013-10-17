@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Alex Nichol. All rights reserved.
 //
 
-#include "ANPermGroup.h"
+#include "ANPermutation.h"
 
 ANPermutation::ANPermutation(const vector<int> & desc) {
     perm = new int[desc.size()];

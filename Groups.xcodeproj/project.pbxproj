@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		FA1B3FAC180F2736001CC16B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3FAB180F2736001CC16B /* main.cpp */; };
 		FA1B3FAE180F2736001CC16B /* Groups.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA1B3FAD180F2736001CC16B /* Groups.1 */; };
-		FA1B3FB9180F2F12001CC16B /* ANModGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3FB7180F2F12001CC16B /* ANModGroup.cpp */; };
-		FA1B3FBC180F4BC7001CC16B /* ANPermGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3FBA180F4BC7001CC16B /* ANPermGroup.cpp */; };
+		FA1B3FB9180F2F12001CC16B /* ANModNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3FB7180F2F12001CC16B /* ANModNumber.cpp */; };
+		FA1B3FBC180F4BC7001CC16B /* ANPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3FBA180F4BC7001CC16B /* ANPermutation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +31,10 @@
 		FA1B3FAB180F2736001CC16B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA1B3FAD180F2736001CC16B /* Groups.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Groups.1; sourceTree = "<group>"; };
 		FA1B3FB5180F2741001CC16B /* ANGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGroup.h; sourceTree = "<group>"; };
-		FA1B3FB7180F2F12001CC16B /* ANModGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANModGroup.cpp; sourceTree = "<group>"; };
-		FA1B3FB8180F2F12001CC16B /* ANModGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANModGroup.h; sourceTree = "<group>"; };
-		FA1B3FBA180F4BC7001CC16B /* ANPermGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANPermGroup.cpp; sourceTree = "<group>"; };
-		FA1B3FBB180F4BC7001CC16B /* ANPermGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPermGroup.h; sourceTree = "<group>"; };
+		FA1B3FB7180F2F12001CC16B /* ANModNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANModNumber.cpp; sourceTree = "<group>"; };
+		FA1B3FB8180F2F12001CC16B /* ANModNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANModNumber.h; sourceTree = "<group>"; };
+		FA1B3FBA180F4BC7001CC16B /* ANPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANPermutation.cpp; sourceTree = "<group>"; };
+		FA1B3FBB180F4BC7001CC16B /* ANPermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPermutation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +70,10 @@
 				FA1B3FAB180F2736001CC16B /* main.cpp */,
 				FA1B3FAD180F2736001CC16B /* Groups.1 */,
 				FA1B3FB5180F2741001CC16B /* ANGroup.h */,
-				FA1B3FB8180F2F12001CC16B /* ANModGroup.h */,
-				FA1B3FB7180F2F12001CC16B /* ANModGroup.cpp */,
-				FA1B3FBB180F4BC7001CC16B /* ANPermGroup.h */,
-				FA1B3FBA180F4BC7001CC16B /* ANPermGroup.cpp */,
+				FA1B3FB8180F2F12001CC16B /* ANModNumber.h */,
+				FA1B3FB7180F2F12001CC16B /* ANModNumber.cpp */,
+				FA1B3FBB180F4BC7001CC16B /* ANPermutation.h */,
+				FA1B3FBA180F4BC7001CC16B /* ANPermutation.cpp */,
 			);
 			path = Groups;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1B3FBC180F4BC7001CC16B /* ANPermGroup.cpp in Sources */,
-				FA1B3FB9180F2F12001CC16B /* ANModGroup.cpp in Sources */,
+				FA1B3FBC180F4BC7001CC16B /* ANPermutation.cpp in Sources */,
+				FA1B3FB9180F2F12001CC16B /* ANModNumber.cpp in Sources */,
 				FA1B3FAC180F2736001CC16B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +239,7 @@
 				FA1B3FB3180F2736001CC16B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,8 @@
 
 #include <iostream>
 #include "ANGroup.h"
-#include "ANModGroup.h"
-#include "ANPermGroup.h"
+#include "ANModNumber.h"
+#include "ANPermutation.h"
 
 template <class T>
 void analyzeGroup(ANGroup<T> group);
@@ -53,9 +53,7 @@ void analyzeGroup(const ANGroup<T> group) {
         ANGroupMap<T> aMap = maps[i];
         bool squares = mapPreservesPowers(aMap);
         if (squares) {
-            cout << "Map preserves powers" << endl;
             if (mapPreservesProduct(aMap)) {
-                cout << "Map preserves product!" << endl;
             } else {
                 cout << "Map does not preserve product!" << endl;
                 cout << aMap << endl;

@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Alex Nichol. All rights reserved.
 //
 
-#include "ANModGroup.h"
+#include "ANModNumber.h"
 
 static int getGCD(int a, int b);
 
